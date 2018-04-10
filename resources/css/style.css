@@ -1,0 +1,44 @@
+nav {
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-size: 1rem;
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+
+.container {
+  margin: auto;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+ul li {
+  display: inline;
+  padding: 0 1rem;
+}
