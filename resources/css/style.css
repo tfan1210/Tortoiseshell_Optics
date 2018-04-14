@@ -192,3 +192,26 @@ footer img {
   margin-left: 2rem;
   margin-right: 1rem;
 }
+
+@media only screen and (max-width: 560px) {
+  .service {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  nav.container {
+    max-width: 100%;
+  }
+}
