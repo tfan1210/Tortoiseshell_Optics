@@ -1,3 +1,9 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
 nav {
   background-color: cadetblue;
   font-family: Helvetica;
@@ -89,6 +95,8 @@ header {
   padding: 1.5rem 5rem;
   margin-top: 10rem;
   display: inline-block;
+  margin-right: -2rem;
+  line-height: 2.4rem;
 }
 
 .main-banner h1 {
@@ -96,4 +104,33 @@ header {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  border-style: none;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
 }
